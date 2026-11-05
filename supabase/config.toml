@@ -1,0 +1,5 @@
+project_id = "cncbkomkqtifuxdgkhuw"
+
+# Called by the database webhook (no user JWT); it checks its own shared secret.
+[functions.notify-inquiry]
+verify_jwt = false
